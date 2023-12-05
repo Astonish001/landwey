@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 1000;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 70%;
+    background: transparent;
+    padding: 27px 17% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+ul li{
+    display: flex;
+    font-size: smaller;
+    margin-right: 30px;
+}
+ul button{
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 140px;
+}
+.page-info{
+    width: 200px;
+    height: 200px;
+    transition: all is linear;
+    display: flex;
+    position: relative;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
+}
+.pages li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    color: #000;
+    scroll-snap-align:start ;
+}
+.pages h1{
+    font-size: 3.125rem;
+    font-weight: bolder;
+}
+.pages p{
+    font-weight: bold;
+
+}
+.Terra-g{
+    width: 400px;
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 250px;
+}
+.terra{
+    padding-top: 30px;
+    width: 400px;
+    height: 300px;
+    padding-left: 250px;
+
+}
+.terra p{
+    background-color: orangered;
+    width: 250px;
+    height: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+span{
+    padding-left: 50px;
+    padding-top: 30px;
+    
+}
+.cover{
+    /* padding-top: 40px; */
+    /* position: relative; */
+    padding-bottom: 700px;
+  
+}
+.scroll-images{
+    padding-top: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    padding-bottom: 400px;
+}
+.child{
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.scroll-images button{
+    background-color: orangered;
+    display: flex;
+}
+.btn2{
+    padding-left: 300px;
+    padding-top: 100px;
+    
+
+}
+input[type="button"]{
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    border-radius: 30px 30px;
+    min-height: 40px;
+    min-width: 140px;
+}
+
+
+
+
